@@ -1,6 +1,5 @@
-package net.takaiwa.customwidthalertdialog;
+package net.takaiwa.customwidthdialogalert;
 
-import net.takaiwa.customwidthdialogalert.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
