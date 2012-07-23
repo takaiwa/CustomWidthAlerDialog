@@ -1,5 +1,6 @@
-package net.takaiwa.customwidthdialogalert;
+package net.takaiwa.customwidthalertdialog;
 
+import net.takaiwa.customwidthdialogalert.R;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -8,14 +9,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager.LayoutParams;
 
-public class CustomAlerDialog extends AlertDialog.Builder {
+public class CustomAlertDialog extends AlertDialog.Builder {
 
     /**
      * コンストラクタ
      * ダイアログ側でサイズを指定
      * @param context
      */
-    public CustomAlerDialog(Context context) {
+    public CustomAlertDialog(Context context) {
         super(context);
         this.showDialog(context, LayoutParams.FILL_PARENT);
     }
@@ -26,7 +27,7 @@ public class CustomAlerDialog extends AlertDialog.Builder {
      * @param context
      * @param width
      */
-    public CustomAlerDialog(Context context, int width) {
+    public CustomAlertDialog(Context context, int width) {
         super(context);
         this.showDialog(context,width);
     }

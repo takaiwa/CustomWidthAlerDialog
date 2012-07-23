@@ -1,5 +1,6 @@
-package net.takaiwa.customwidthdialogalert;
+package net.takaiwa.customwidthalertdialog;
 
+import net.takaiwa.customwidthdialogalert.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
@@ -15,7 +16,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         // サイズ指定はダイアログ側に任せて表示する場合
-        new CustomAlerDialog(this);
+        new CustomAlertDialog(this);
 
         // Activityでサイズを指定して表示する場合
 //        WindowManager wm = (WindowManager)getSystemService(Context.WINDOW_SERVICE);
